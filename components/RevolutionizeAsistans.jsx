@@ -1,4 +1,8 @@
 import React from 'react'
+import Image from 'next/image';
+import PersonalizedCustomerSupport from '@/images/PersonalizedCustomerSupport.svg';
+import ConsistentCommunication from '@/images/ConsistentCommunication.svg';
+import MultilingualSupport from '@/images/MultilingualSupport.svg';
 
 function RevolutionizeAsistans() {
   return (
@@ -17,11 +21,8 @@ function RevolutionizeAsistans() {
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow text-center text-white max-md:mt-10">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/719245b2e08c074536280506933eccea140f14a9800abd4dd72abdf44a962740?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&"
-              className="w-full aspect-[1.69]"
-            />
+          
+              <Image className="w-full aspect-[1.69]" src={PersonalizedCustomerSupport} alt="PersonalizedCustomerSupport"  />
             <div className="mt-8 text-3xl font-bold leading-10">
               Efficient and Personalized Customer Support
             </div>
@@ -33,11 +34,8 @@ function RevolutionizeAsistans() {
         </div>
         <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow text-center text-white max-md:mt-10">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6dd824f9711d1cc25227494953668b166547215e932bef29cd8fa5dfef890f8a?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&"
-              className="w-full aspect-[1.69]"
-            />
+          <Image className="w-full aspect-[1.69]" src={ConsistentCommunication} alt="ConsistentCommunication"  />
+          
             <div className="mt-8 text-3xl font-bold leading-10">
               Scalable and Consistent Communication
             </div>
@@ -50,11 +48,7 @@ function RevolutionizeAsistans() {
         </div>
         <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow text-center text-white max-md:mt-10">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7d0642fc0b5ad04313cf3b54712041d57075c24390621768d640546574e6102c?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&"
-              className="w-full aspect-[1.69]"
-            />
+          <Image className="w-full aspect-[1.69]" src={MultilingualSupport} alt="MultilingualSupport"  />
             <div className="mt-8 text-3xl font-bold leading-10">
               Global Reach with Multilingual Support
             </div>

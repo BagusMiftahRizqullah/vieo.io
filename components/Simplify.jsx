@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image';
+import Streamline from '@/images/Streamline.svg';
 
 function Simplify() {
   return (
@@ -24,11 +26,8 @@ function Simplify() {
             </div>
           </div>
           <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/695e35fe9375ed813e9267c48b6e6e0ed2c5303c0a4eb46842040dcb8370ac1e?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&"
-              className="grow w-full aspect-[0.96] max-md:mt-10 max-md:max-w-full"
-            />
+          <Image className="grow w-full aspect-[0.96] max-md:mt-10 max-md:max-w-full" src={Streamline} alt="Streamline"  />
+           
           </div>
         </div>
       </div>

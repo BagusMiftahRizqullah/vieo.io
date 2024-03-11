@@ -1,4 +1,8 @@
 import React from 'react'
+import Image from 'next/image';
+import CustomerService from '@/images/CustomerSupport.svg';
+import ServiceSolution from '@/images/ServiceSolutions.svg';
+import CustomerEngagement from '@/images/CustomerEngagement.svg';
 
 function Revolutionize() {
   return (
@@ -33,11 +37,7 @@ function Revolutionize() {
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-[54%] max-md:ml-0 max-md:w-full">
-                  <img
-                    loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&"
-                    className="grow self-stretch w-full aspect-[0.87] max-md:mt-6"
-                  />
+                <Image className="grow self-stretch w-full aspect-[0.87] max-md:mt-6" src={ServiceSolution} alt="ServiceSolution"  />
                 </div>
               </div>
             </div>
@@ -58,11 +58,8 @@ function Revolutionize() {
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-[54%] max-md:ml-0 max-md:w-full">
-                  <img
-                    loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/77e979656144102f2b6e6d66730e26aa0d8a29bda7b0e1339db3217cf7ee3e69?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&"
-                    className="grow self-stretch w-full aspect-[0.87] max-md:mt-6"
-                  />
+                <Image className="grow self-stretch w-full aspect-[0.87] max-md:mt-6" src={CustomerService} alt="CustomerService"  />
+                 
                 </div>
               </div>
             </div>
@@ -84,11 +81,8 @@ function Revolutionize() {
                 Contact
               </div>
             </div>
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/27c5725179c3eed7fc1368bdabac72e316e2eb38575c6f807343f78f00fba36b?apiKey=8420c0a8e03b459ea0bb22c2073ccc25&"
-              className="w-full aspect-[1.79] max-md:max-w-full"
-            />
+            <Image className="w-full aspect-[1.79] max-md:max-w-full" src={CustomerEngagement} alt="CustomerService"  />
+           
           </div>
         </div>
       </div>

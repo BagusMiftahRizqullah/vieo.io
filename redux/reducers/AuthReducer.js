@@ -5,7 +5,7 @@ const initialState = {
   username: "namesss",
   uid: "dasdsadasdasd",
   isModerator: false,
-  isLoadings: true,
+  isLoadings: false,
 };
 
 export const auth = createSlice({
