@@ -15,6 +15,7 @@ import CSSection from "@/components/CSSection";
 import PricingOptions from "@/components/PricingOptions";
 import Faqs from "@/components/Faqs";
 import Footer from "@/components/Footer";
+import Loadings from "@/components/Loadings";
 
 function landing() {
   const [isAuth, setIsAuth] = useState(false);
@@ -26,7 +27,8 @@ function landing() {
   // };
 
   const getAuthStatus = useSelector((state) => state.AuthReducer.isAuth);
-  console.log("getAuthStatus", getAuthStatus);
+  const isLoadings = useSelector((state) => state.AuthReducer.isLoadings);
+  console.log("isLoadings", isLoadings);
 
   // function getLocalStream() {
   //   navigator.mediaDevices
@@ -46,20 +48,28 @@ function landing() {
   // }, []);
 
   return (
-    <div className="w-full h-screen bg-white">
-      <Head>
-        <title>Vieo.io</title>
-      </Head>
-      <HeroSection />
-      <TrustedCompanies />
-      <SavingsSection />
-      <Revolutionize />
-      <RevolutionizeAsistans />
-      <Simplify />
-      <CSSection />
-      <PricingOptions />
-      <Faqs />
-      <Footer />
+    <div>
+      {isLoadings ? (
+        <Loadings />
+      ) : (
+        <NavBar>
+          <div className="w-full h-screen bg-white">
+            <Head>
+              <title>Vieo.io</title>
+            </Head>
+            <HeroSection />
+            <TrustedCompanies />
+            <SavingsSection />
+            <Revolutionize />
+            <RevolutionizeAsistans />
+            <Simplify />
+            <CSSection />
+            <PricingOptions />
+            <Faqs />
+            <Footer />
+          </div>
+        </NavBar>
+      )}
     </div>
   );
 }
